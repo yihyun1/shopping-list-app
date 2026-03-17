@@ -3,7 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const filePath = 'file:///' + path.join(__dirname, 'shopping-list.html').replace(/\\/g, '/');
+const filePath = 'file:///' + path.join(__dirname, 'index.html').replace(/\\/g, '/');
 
 let passed = 0;
 let failed = 0;
